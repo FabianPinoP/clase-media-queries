@@ -1,0 +1,24 @@
+flex-basis es una propiedad que Define el tamaño inicial de un elemento
+flex dentro de un contenedor flex.
+
+La propiedad flex-basis especifica la dimensión principal (refiere a la dirección principal de un contenedor flex.)
+del elemento flexible antes de que se apliquen las reglas de crecimiento o contracción del contenedor.
+Puede establecerse utilizando unidades de longitud (píxeles, porcentajes, em, etc.) o
+mediante palabras clave como auto o content.
+
+Es importante tener en cuenta que el valor content para flex-basis solo está disponible en
+algunos navegadores y su compatibilidad puede variar
+
+https://caniuse.com/
+
+diferencias con width
+
+la diferencia principal es que width se aplica a elementos no flexibles y establece su tamaño
+en relación con el contenedor directo, mientras que flex-basis se aplica a elementos dentro de un
+contenedor flex
+
+otra diferencia entre width y flex-basis es cómo responden al espacio disponible.
+Cuando se usa width en elementos no flexibles, el tamaño del elemento no cambiará automáticamente
+si hay más o menos espacio disponible. En cambio, flex-basis, como parte de Flexbox, responde a la
+propiedad flex-grow y flex-shrink para ajustar dinámicamente el tamaño de los elementos flexibles según el
+espacio disponible y las reglas de crecimiento o contracción del contenedor.

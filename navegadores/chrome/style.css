@@ -1,0 +1,11 @@
+/* Estilos específicos para Google Chrome */
+@media screen and (-webkit-min-device-pixel-ratio:0) and (min-resolution:.001dpcm) {
+    /* Media query específica para Chrome */
+    h1 {
+        color: red;
+    }
+
+    p {
+        text-decoration: underline;
+    }
+}

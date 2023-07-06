@@ -1,0 +1,12 @@
+@media not all and (min-resolution:.001dpcm) { /* Media query general para todos los navegadores */
+  @supports (-webkit-touch-callout: none) { /* Característica específica de Safari */
+    h1 {
+      color: green;
+    }
+
+    p {
+      font-style: italic;
+    }
+  }
+}
+

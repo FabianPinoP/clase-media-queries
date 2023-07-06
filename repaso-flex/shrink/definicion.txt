@@ -1,0 +1,5 @@
+flex-shrink es una propiedad de CSS que se utiliza en Flexbox para
+controlar cómo se contraen los elementos flexibles cuando hay una falta
+de espacio disponible en el contenedor. Esta propiedad define la capacidad de los
+elementos flexibles para encogerse en relación con otros elementos flexibles dentro del contenedor.
+

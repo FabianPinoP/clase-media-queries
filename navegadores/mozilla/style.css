@@ -1,0 +1,9 @@
+@-moz-document url-prefix() { /* Media query específica para Firefox */
+  h1 {
+    color: blue;
+  }
+
+  p {
+    font-weight: bold;
+  }
+}

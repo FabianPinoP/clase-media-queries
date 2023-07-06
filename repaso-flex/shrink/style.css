@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  width: 200px; /* Ancho del contenedor */
+}
+
+.item {
+  flex-shrink: 1;
+  background-color: lightblue;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid black;
+}
+
+.shrink {
+  flex-shrink: 2;
+}
+
+/*
+se ha establecido un ancho de 400 píxeles para el contenedor flex.
+Los elementos flexibles tienen un fondo azul claro, relleno,
+margen y un borde negro para que puedas visualizarlos fácilmente.
+
+El tercer elemento tiene la clase "shrink" y flex-shrink: 2, lo que significa que se contraerá
+el doble de rápido que los otros elementos cuando haya falta de espacio.
+
+Verás los elementos flexibles dentro del contenedor. Podemos ajustar el ancho del contenedor y
+observar cómo se contraen los elementos cuando el espacio disponible es insuficiente.
+
+Por ejemplo, si cambiamos width: 400px a width: 200px en el estilo del contenedor,
+verás cómo el tercer elemento se contrae más rápidamente que los otros debido a su flex-shrink mayor.
+
+Recuerda que flex-shrink solo tendrá efecto si hay falta de espacio y los elementos necesitan contraerse.
+Si hay suficiente espacio disponible, los elementos mantendrán su tamaño original.*/

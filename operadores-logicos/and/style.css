@@ -1,0 +1,14 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  h1 {
+    color: blue;
+  }
+
+  p {
+    font-weight: bold;
+  }
+}
+
+/*
+En este ejemplo, los estilos dentro de la media query se aplicarán solo si el ancho de la
+pantalla está entre 768px y 1024px. Los encabezados (h1) se mostrarán en color azul y los párrafos (p)
+estarán en negrita cuando se cumpla esta condición.*/

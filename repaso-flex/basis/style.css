@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+}
+
+.item {
+  flex-basis: 200px;
+  background-color: lightblue;
+  padding: 10px;
+  margin: 5px;
+}
+
+/*
+aqui estamos llamando a un contenedor (<div class="contenedor">) que tiene tres elementos hijos
+(<div class="item">). Aplicamos Flexbox al contenedor utilizando display: flex;.
+Cada elemento hijo tiene flex-basis: 200px;, lo que significa que su tamaño inicial en
+la dimensión principal será de 200 píxeles. */
+
+/* .container {
+  display: flex;
+} */
+
+/* .item {
+  flex-basis: content;
+  background-color: lightblue;
+  padding: 10px;
+  margin: 5px;
+} */
+
+/*utilizando la propiedad flex-basis con el valor content en los elementos hijos del contenedor.
+Esto significa que el tamaño inicial de cada elemento se basará únicamente en su contenido.
+
+Los elementos <div class="item"> dentro del contenedor tendrán un tamaño inicial que se ajusta
+automáticamente según el contenido que contienen. Los estilos adicionales, como el color de fondo,
+el relleno y el margen, se aplicarán a cada elemento para resaltarlo visualmente.*/
+

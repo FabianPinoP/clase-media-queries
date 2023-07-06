@@ -1,0 +1,17 @@
+flex-grow es una propiedad que determina cómo se distribuye el espacio adicional en un contenedor
+flexible cuando hay más espacio disponible que el necesario para mostrar los elementos. Imagina que
+tienes un contenedor con elementos flexibles dentro y deseas que algunos elementos crezcan más que
+otros cuando haya espacio adicional.
+
+ver ej
+
+para determinar si hay espacio disponible flex-grow se basa en cómo se calcula el tamaño de los
+elementos flexibles en Flexbox.
+
+es decir si tienes un contenedor flex con tres elementos flexibles y su suma total de anchos es menor que
+el ancho del contenedor, se considera que hay espacio adicional disponible. En ese caso, los elementos
+flexibles que tengan un valor de flex-grow mayor que 0 se expandirán para llenar ese espacio adicional
+proporcionalmente.
+
+si los elementos ya ocupan todo el espacio disponible y no hay espacio adicional, el valor de
+flex-grow no tendrá efecto y los elementos no se expandirán más allá de su tamaño inicial.

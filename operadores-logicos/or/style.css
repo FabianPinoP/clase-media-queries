@@ -1,0 +1,14 @@
+@media (max-width: 480px), (min-width: 1024px) {
+  h1 {
+    color: green;
+  }
+
+  p {
+    font-style: italic;
+  }
+}
+
+/*
+En este ejemplo, los estilos dentro de la media query se aplicarán
+si el ancho de la pantalla es menor a 480px o mayor a 1024px. Los encabezados (h1) se mostrarán
+en color verde y los párrafos (p) tendrán estilo cursiva cuando se cumpla una de estas condiciones*/

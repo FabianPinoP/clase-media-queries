@@ -1,0 +1,14 @@
+@media not screen and (min-width: 768px) {
+  h1 {
+    color: red;
+  }
+
+  p {
+    text-decoration: underline;
+  }
+}
+
+/*
+En este ejemplo, los estilos dentro de la media query se aplicarán si el ancho de la pantalla es menor a 768px.
+Los encabezados (h1) se mostrarán en color rojo y los párrafos (p) tendrán subrayado cuando NO se cumpla esta
+condición.*/

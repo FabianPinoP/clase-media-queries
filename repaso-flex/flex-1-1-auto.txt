@@ -1,0 +1,24 @@
+cuando se aplica flex: 1 1 auto a un elemento en Flexbox, estamos estableciendo tres
+propiedades al mismo tiempo: flex-grow, flex-shrink y flex-basis
+
+es una forma abreviada de definir las tres propiedades relacionadas con el
+modelo de caja flexible en una sola declaración
+
+flex-grow se establece en 1, lo que significa que el elemento puede crecer y
+ocupar espacio adicional si está disponible. Si hay espacio sobrante en el
+contenedor flex, los elementos con un valor de flex-grow mayor tomarán más
+espacio en comparación con aquellos con un valor menor o igual.
+
+flex-shrink se establece en 1, lo que significa que el elemento puede encogerse si
+el espacio disponible es insuficiente para mostrar todos los elementos flexibles.
+Si hay una falta de espacio en el contenedor, los elementos con un valor de flex-shrink mayor
+se reducirán más rápidamente en relación con aquellos con un valor menor o igual.
+
+flex-basis se establece en auto, lo que significa que el tamaño base del elemento será
+determinado por su contenido y su tamaño intrínseco. El elemento ocupará el espacio necesario
+para mostrar su contenido y respetará las reglas de crecimiento y contracción establecidas por
+flex-grow y flex-shrink.
+
+En resumen, flex: 1 1 auto; indica que el elemento tiene flexibilidad para crecer y encogerse según
+las condiciones del contenedor. Se expandirá y contraerá en función de las reglas de distribución de
+espacio establecidas por flex-grow y flex-shrink, mientras que su tamaño base se determinará automáticamente.

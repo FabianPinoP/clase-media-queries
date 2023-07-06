@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+}
+
+.item {
+  flex-grow: 1;
+  background-color: lightblue;
+  padding: 10px;
+  margin: 5px;
+}
+
+.grow {
+  flex-grow: 2;
+}
+
+/*tenemos tres elementos dentro de un contenedor y queremos que uno de
+ellos crezca más que los demás
+
+se ha creado un contenedor con tres elementos (<div>). Todos los elementos tienen la clase "item",
+que establece flex-grow en 1 por defecto. Sin embargo, el tercer elemento tiene una clase adicional "grow",
+que establece flex-grow en 2.*/
+
+/*
+el número específico (1 o 2) no tiene un significado concreto en sí mismo. Es relativo a otros valores de
+flex-grow dentro del mismo contenedor.
+El tercer elemento, al tener flex-grow: 2, crecerá el doble de rápido que los otros elementos
+cuando haya espacio adicional en el contenedor. Esto significa que ocupará más espacio en relación a los demás.*/

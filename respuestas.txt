@@ -1,0 +1,76 @@
+¿Qué es un media query?
+
+Una media query es una regla o conjunto de reglas CSS que se ejecutan para unas condiciones 
+específicas de la pantalla (tamaño, resolución, orientación, etc.)
+
+osea funciona bajo una condicion
+
+¿En qué casos se deben utilizar los media
+queries?
+
+cuando queremos cambiar el comportamiento de nuestro layout segun el tipo de dispositivo etc..
+
+¿Qué es un breakpoint?
+
+Los breakpoints; o puntos de quiebre en su traducción al español, son cambios estéticos
+producidos en una página web en el momento que el viewport cumple una condición
+preestablecida.
+
+¿cual es la sintaxis de un breakpoint?
+
+@media [tipo de media] [operador and] [condición]
+
+¿cuales son los tipos de media?
+
+all: Aplica el cambio a todos los medias.
+screen: Es la más utilizada y se enfoca en la pantalla del dispositivo.
+speech: Se utiliza para los sintetizadores de voz.
+print: Diseño dedicado a la impresión de un documento. Es posible diseñar cambios
+        estéticos en un sitio web dedicado a la impresión o exportación en PDF.
+
+bonus media querys para el navegador
+
+sirven para aplicar estilos diferentes según el navegador o el tipo de dispositivo.
+
+Pero, es importante considerar que los media queries están diseñados
+principalmente para adaptar los estilos según las características del dispositivo,
+como el tamaño de la pantalla, la resolución, la orientación, entre otros y no al navegador
+
+no es recomendable depender de media queries específicas para navegadores individuales,
+ya que no son parte del estándar CSS y pueden tener comportamientos inconsistentes entre
+distintas versiones de los navegadores.
+
+operadores logicos
+
+AND (y): Se representa con la palabra clave "and" o simplemente un espacio entre dos o más condiciones.
+Se utiliza para combinar múltiples condiciones y todas deben ser verdaderas para que se apliquen los estilos
+dentro de la media query.
+
+ej
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* Estilos para pantallas con un ancho mínimo de 768px y máximo de 1024px */
+  /* Por ejemplo, tablets en modo horizontal */
+  body {
+    font-size: 16px;
+  }
+}
+
+
+OR (o): Se representa con la palabra clave "or" o una coma (,). Se utiliza para combinar múltiples
+condiciones y al menos una de ellas debe ser verdadera para que se apliquen los estilos dentro de
+la media query.
+
+ej
+@media (max-width: 480px), (max-width: 768px) {
+  /* Estilos para pantallas con un ancho máximo de 480px o 768px */
+}
+
+NOT (no): Se representa con la palabra clave "not". Se utiliza para negar una condición, es decir,
+los estilos dentro de la media query se aplicarán cuando la condición sea falsa.
+
+@media not (max-width: 768px) {
+  /* Estilos para pantallas que no tengan un ancho máximo de 768px */
+}
+
+https://developer.mozilla.org/es/docs/Web/CSS/CSS_media_queries/Using_media_queries
+

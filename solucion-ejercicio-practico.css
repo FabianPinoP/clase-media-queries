@@ -1,0 +1,72 @@
+/* ejercicio 1 */
+@media screen and (max-width: 768px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+  }
+}
+
+/* ejercicio 2 */
+@media screen and (max-width: 480px) {
+  .img-futurama {
+    display: none;
+  }
+}
+
+/* ejercicio 3 */
+@media screen and (min-width: 1024px) {
+  .lorem-text {
+    font-size: 40px;
+  }
+}
+
+/* ejercicio 4 */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .encabezado {
+    color: blue;
+  }
+}
+
+/* ejercicio 5 */
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu-item {
+    font-size: 30px;
+  }
+
+}
+
+/* ejercicio 6 */
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "bender text"
+    "title title";
+}
+
+.bender {
+  grid-area: bender;
+}
+
+.text {
+  grid-area: text;
+}
+
+.title {
+  grid-area: title;
+}
+
+@media screen and (max-width: 480px) {
+  .grid-container {
+    grid-template-areas:
+      "title title"
+      "text bender";
+  }
+}
