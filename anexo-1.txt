@@ -1,0 +1,11 @@
+bonus media querys para el navegador
+
+sirven para aplicar estilos diferentes según el navegador o el tipo de dispositivo.
+
+Pero, es importante considerar que los media queries están diseñados
+principalmente para adaptar los estilos según las características del dispositivo,
+como el tamaño de la pantalla, la resolución, la orientación, entre otros y no al navegador
+
+no es recomendable depender de media queries específicas para navegadores individuales,
+ya que no son parte del estándar CSS y pueden tener comportamientos inconsistentes entre
+distintas versiones de los navegadores.
